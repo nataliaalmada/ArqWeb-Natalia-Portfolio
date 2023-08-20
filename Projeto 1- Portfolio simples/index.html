@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      names="keywords"
+      content="acauan, Frontend, developer, web, Javascript, CSS, HTML, Gimp, Git"
+    />
+    <meta name="author" content="Natalia Almada" />
+    <title>AlmadaDev</title>
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <!-- ------------------- HEADER ------------------- -->
+    <div class="theme-toggle">
+      <button id="theme-toggle-button" class="round-button">☼</button>
+    </div>
+    <button id="scrollToTopBtn" title="Voltar ao topo">▲</button>
+    <header>
+      <nav>
+        <a class="logo_nav nav_ul_li_a" id="logo" href="#"></a>
+        <div class="nav_menu_bars">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <div class="flasg">
+          <img id="flag-pt" src="/imgs/br.png" alt="flag-pt" width="40px">
+          <img id="flag-en" src="/imgs/us.png" alt="flag-en" width="40px">
+        </div>
+        <ul class="nav_ul">
+        </ul>
+      </nav>
+    </header>
+    <!-- ------------------- MAIN ------------------- -->
+    <main>
+      <!--Primera parte da página -->
+        <div class="description">
+          <div class="main_photo">
+            <img src="/imgs/natala.jpg" alt="foto notolha" />
+          </div>
+          <div class="description_text">
+            <p class="greeting" id="greeting"></p>
+            <h1><span>Natalia</span> Almada</h1>
+            <p class="smalldescription"></p>
+            <div class="socialmedia">
+              <ul class="sociallist">
+              <li><a href="http://lattes.cnpq.br/1801561527644743" target="_blank">Currículo Lattes <i class="lni lni-graduation"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/natalia-almada-8438b2212/" target="_blank">Linkedin <i class="lni lni-linkedin-original"></i></a></li>
+              <li><a href="https://github.com/nataliaalmada">Github <i class="lni lni-github-original"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      <!--Segunda Parte da página-->
+      <section data-translate>
+        <div class="about">
+          <h2 class="titulo-about" id="about"></h2>
+          <div class="information"></div>
+        </div>
+      </section>
+      <!--Terceira parte da pagina Skills-->
+      <section data-translate>
+        <div class="skills">
+          <h2 class="titulo-skills" id="skills"></h2>
+          <ul class="grid_container">
+            <li class="grid_items"><img src="/imgs/html.svg"><p>HTML</p></li>
+            <li class="grid_items"><img src="/imgs/css.svg"><p>CSS</p></li>
+            <li class="grid_items"><img src="/imgs/javascript.svg"><p>JavaSript</p></li>
+            <li class="grid_items"><img src="/imgs/github.png"><p>Github</p></li>
+            <li class="grid_items"><img src="/imgs/VSC.png"><p>VSC</p></li>
+          <!----<li class="grid_items"><img src="/imgs/react.svg"><p>React</p></li>-->  
+            <li class="grid_items"><img src="/imgs/DaVinci.png"><p>DaVinci</p></li>
+          </ul>
+        </div>
+      </section>
+      <!-- ----WORKS------------------------------------------------------- -->
+      <section data-translate>
+        <div class="works" id="projects">
+          <h2 class="titulo-works"></h2>
+          <div class="grid_container_works">
+            <div class="grid_items_div">
+              <a href="https://dcc-ufrr.app/" target="_blank"><img class="grid_items_works" src="/imgs/tela_site_dcc.png" alt="Site DCC - CMS"></a>
+              <h3>Site DCC - UFRR</h3>
+            </div>
+            <div class="grid_items_div">
+              <a href="https://dcc-ufrr.app/phylo/" target="_blank"><img class="grid_items_works" src="/imgs/tela_phylo.png" alt="Phylo Explorer"></a>
+              <h3>Phylo-Explorer</h3>
+            </div>
+            <div class="grid_items_div">
+              <a href="#"><img class="grid_items_works" src="/imgs/tela_keyboard.png" alt="Teclado Virtual"></a>
+              <h3 class="teclado"><h3>
+            </div>
+            <div class="grid_items_div">
+              <a href="#"><img class="grid_items_works" src="/imgs/tela_quiz.png" alt="QuizApp"></a>
+              <h3>QuizApp</h3>
+            </div>
+            <div class="grid_items_div">
+              <a href="#"><img class="grid_items_works" src="/imgs/tela_editor.png" alt="editor"></a>
+              <h3 class="editor"></h3>
+            </div>
+            <div class="grid_items_div">
+              <a href="#"><img class="grid_items_works" src="/imgs/tela_leilao.png" alt="Leilao de Centavos"></a>
+              <h3 class="leilao"></h3>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <!-- ---------------CONTACT------------------------------------------------------------------------------------------ -->
+      <section class="contact" data-translate>
+        <h2 class="titulo-contact" id="contact"></h2>
+        <div class="contact-details">
+          <div class="contact-details-email">
+            <img src="/imgs/email.svg">
+            <a href="mailto:almada.compsci@gmail.com">almada.compsci@gmail.com</a>
+            <p class="enviar"></p>
+          </div>
+          <h3 class="titulo-contact_form"></h3>
+          <form action="https://formsubmit.co/ajax/almada.compsci@gmail.com"
+          method="POST"
+          data-form class="form_contact">
+            <input type="text" name="name" class="name" required placeholder="Name *">
+            <input type="email" name="email" class="email" required placeholder="Email *">
+            <input type="text" name="subject" class="subject" required placeholder="Assunto *">
+            <textarea name="mensagem" id="mensagem" required placeholder="Sua mensagem *"></textarea>
+            <button class="submit" type="submit" data-button></button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- ---------------FOOTER---------------------------------------------------------------------------------------------------- -->
+    <footer>
+        <p class="copyright">AlmadaDev - Natália Almada 2023©</p>
+    </footer>
+    <script src="js/codigo.js"></script>
+    <script src="js/tradutor.js"></script>
+  </body>
+</html>

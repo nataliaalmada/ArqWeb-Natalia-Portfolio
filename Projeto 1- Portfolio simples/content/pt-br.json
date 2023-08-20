@@ -1,0 +1,29 @@
+{
+    "header": {
+        "logo": "Prado Dev Pt-Br",
+        "menu": ["Início", "Sobre", "Habilidades", "Projetos", "Contato"]
+    },
+    "description": {
+        "greeting": "Olá, me chamo",
+        "smallDescription": "Sou <span>desenvolvedor Front e Backend</span> apaixonado pela criação de soluções interativas e funcionais para web.</p>"
+    },
+    "about": {
+        "tituloAbout": "SOBRE MIM",
+        "information": "<p>Um bom desenvolvedor de sistemas web em busca de novos desafios é alguém que possui uma combinação única de habilidades técnicas e características pessoais que o tornam altamente valioso para equipes de desenvolvimento e empresas em busca de inovação e crescimento. Abaixo, descrevo algumas características-chave desse profissional:</p><br/><ul><li><strong>Experiência técnica sólida:</strong> Um bom desenvolvedor de sistemas web possui um amplo conhecimento e experiência prática em diversas tecnologias web, como linguagens de programação (por exemplo, JavaScript, Python, PHP, Ruby), frameworks (React, Angular, Django, Laravel) e bancos de dados (MySQL, PostgreSQL, MongoDB).</li><li><strong>Adaptabilidade:</strong> Esse desenvolvedor está sempre disposto a aprender novas tecnologias e ferramentas, mantendo-se atualizado sobre as tendências do setor. Sua capacidade de se adaptar rapidamente a novos ambientes e metodologias é crucial para enfrentar novos desafios.</li><li><strong>Criatividade e pensamento inovador:</strong> Ao buscar novos desafios, esse profissional tem uma mente criativa e pensa fora da caixa para propor soluções originais e eficientes para problemas complexos. Ele vê os desafios como oportunidades para inovar e melhorar o status quo.</li><li><strong>Trabalho em equipe:</strong> Ser capaz de colaborar efetivamente com outros membros da equipe é fundamental. Esse desenvolvedor é aberto a feedback, compartilha seu conhecimento com os colegas e está disposto a contribuir para o sucesso coletivo do projeto.</li><li><strong>Boas práticas de desenvolvimento:</strong> Um bom desenvolvedor de sistemas web segue as melhores práticas de codificação, como escrever código limpo, modular e bem documentado. Além disso, ele compreende a importância dos testes automatizados para garantir a qualidade do software.</li><li><strong>Resolução de problemas:</strong> Diante de desafios complexos, esse profissional mantém a calma e aborda os problemas de maneira sistemática. Ele é capaz de analisar, depurar e encontrar soluções eficazes para problemas técnicos e de negócios.</li><li><strong>Orientação para o usuário:</strong> Ao desenvolver sistemas web, o foco no usuário é essencial. Um bom desenvolvedor considera a experiência do usuário em todas as etapas do processo, buscando criar interfaces amigáveis e funcionais.</li><li><strong>Autonomia:</strong> Esse profissional é proativo e capaz de trabalhar de forma independente, assumindo a responsabilidade por suas tarefas e entregas. Ele está sempre em busca de oportunidades para contribuir além de suas atribuições imediatas.</li><li><strong>Paixão pela tecnologia:</strong> Acima de tudo, um bom desenvolvedor de sistemas web é apaixonado pela tecnologia e pelo processo de criação. Essa paixão impulsiona seu desejo de enfrentar novos desafios, aprender continuamente e entregar soluções excepcionais.</li></ul>"
+    },
+    "skills": {
+        "tituloSkills": "HABILIDADES"
+    },
+    "projects": {
+        "tituloWorks": "PROJETOS",
+        "teclado": "Teclado Virtual Responsivo",
+        "editor": "Editor de Imagens",
+        "leilao": "Leilão de Centavos - Web Sockets"
+    },
+    "contact": {
+        "tituloContact": "CONTATO",
+        "enviar": "Mandar E-mail",
+        "tituloForm": "Formulário de Contato",
+        "submit": "Enviar"
+    }
+}

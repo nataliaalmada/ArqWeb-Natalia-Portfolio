@@ -1,0 +1,29 @@
+{
+    "header": {
+        "logo": "AlmadaDev EN-US",
+        "menu": ["Home", "About", "Skills", "Projects", "Contact"]
+    },
+    "description": {
+        "greeting": "Hey, there! I'm",
+        "smallDescription": "I'm a <span>Frontend and Backend developer</span> passionate about creating interactive and functional solutions for the web."
+    },
+    "about": {
+        "tituloAbout": "ABOUT ME",
+        "information": "<p>A good web systems developer looking for new challenges is someone who possesses a unique combination of technical skills and personal traits that make him or her highly valuable to development teams and companies looking for innovation and growth. Below, I describe some key characteristics of this professional:</p><br/><ul><li><strong>Solid technical experience:</strong> A good web systems developer has a broad knowledge and practical experience in several web technologies such as programming languages (e.g. JavaScript, Python, PHP, Ruby), frameworks (React, Angular, Django, Laravel) and databases (MySQL, PostgreSQL, MongoDB).<li><strong>Adaptability:</strong> This developer is always willing to learn new technologies and tools, keeping up to date on industry trends. His ability to quickly adapt to new environments and methodologies is crucial to face new challenges.</strong></li><li><strong>Creativity and innovative thinking:</strong> When looking for new challenges, this professional has a creative mind and thinks outside the box to propose original and efficient solutions to complex problems. He sees challenges as opportunities to innovate and improve the status quo.</li><li><strong>Teamwork:</strong> Being able to collaborate effectively with other team members is critical. This developer is open to feedback, shares his knowledge with peers, and is willing to contribute to the collective success of the project.</li><li><strong>Good development practices:</strong> A good web systems developer follows best coding practices, such as writing clean, modular, and well-documented code. In addition, he understands the importance of automated testing to ensure software quality.</li><li><strong>Troubleshooting:</strong> In the face of complex challenges, this professional keeps calm and addresses the issues of systematic way. He is able to analyze, debug and find effective solutions to technical and business problems.</li><li><strong>User orientation:</strong> When developing web systems, user focus is essential. A good developer considers the user experience at all stages of the process, seeking to create friendly and functional interfaces.</li><li><strong>Autonomy:</strong> This professional is proactive and capable of working independently, taking responsibility for their tasks and deliverables. He is always looking for opportunities to contribute beyond his immediate assignments.</li><li><strong>Passion for technology:</strong> Above all, a good web systems developer is passionate about technology and the process from creation. This passion drives their desire to take on new challenges, continually learn and deliver exceptional solutions.</li></ul>"    
+    },
+    "skills": {
+        "tituloSkills": "SKILLS"
+    },
+    "projects": {
+        "tituloWorks": "PROJECTS",
+        "teclado": "Responsive Virtual Keyboard",
+        "editor": "Image Editor",
+        "leilao":"Penny Auction - Web Sockets"
+    },
+    "contact": {
+        "tituloContact": "CONTACT ME",
+        "enviar": "Send me an E-mail",
+        "tituloForm": "Contact Form",
+        "submit": "Submit"
+    }
+}
