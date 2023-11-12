@@ -1,0 +1,11 @@
+  .userName {
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+  .time {
+    color: white; 
+    font-size: small; 
+  }
